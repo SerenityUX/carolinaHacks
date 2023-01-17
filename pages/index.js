@@ -45,7 +45,7 @@ function HomePage() {
         <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104797.3577615438!2d-82.36283045!3d34.8331685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88578f6662fa1105%3A0xd8aa9d77bf257696!2sGreenville%2C%20SC!5e0!3m2!1sen!2sus!4v1673733383509!5m2!1sen!2sus" width="100%" style={{"border" :0, borderRadius: "16px"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-          <p className={styles.descriptionText}>📍 Location: Greenville, South Carolina</p>
+          <p className={styles.descriptionText}>📍 Location: City TBD, South Carolina</p>
           <p className={styles.descriptionText}>🏢 Venue: TBD</p>
           <p className={styles.descriptionText}>📆 Dates: April 7-9th 2023</p>
           <p className={styles.descriptionText}>💬 Discord: <a style={{color: "#046FEC", textDecoration: "underline"}} href="https://discord.gg/MGQe5sHt">https://discord.gg/MGQe5sHt</a></p>
@@ -74,7 +74,7 @@ function HomePage() {
         <div className={styles.contentGroup}>
           <h2>Contact</h2>
           <p>Feel free to send Thomas Stubblefield (an organizer of Carolina Hacks) an email if you have any questions
-          <a style={{color: "#046FEC", paddingLeft: "8px", textDecoration: "underline"}} href="mailto: thomas@serenidad.app">thomas@serenidad.com</a>
+          <a style={{color: "#046FEC", paddingLeft: "8px", textDecoration: "underline"}} href="mailto: thomas@serenidad.app">thomas@serenidad.app</a>
           </p>
         </div>
 
