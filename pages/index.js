@@ -27,7 +27,7 @@ function HomePage() {
   ]
   return (
     <main>
-      <a href="https://forms.gle/hJqu5kzb1sZjx4RT6" className={styles.buttonTicket}>
+      <a href="https://forms.gle/sUP8ixVM7GJu5K9E8" className={styles.buttonTicket}>
         Reserve a Ticket
       </a>
       <div className={styles.hero}></div>
