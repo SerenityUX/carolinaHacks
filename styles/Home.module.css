@@ -90,4 +90,7 @@
   z-index: -1; 
   background-repeat:no-repeat;
   background-size: cover;
+  transition-property: all;
+  transition-duration: 4s;
+  transition-delay: 2s;
 }
