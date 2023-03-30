@@ -38,11 +38,28 @@ function HomePage() {
 
   return (
     <>
+    <Head>
+<title>Carolina Hacks</title>
+<meta name="title" content="Carolina Hacks"/>
+<meta name="description" content="Carolina Hacks is a social coding marathon designed for high school coders to come together, build projects, and discover the joy of coding. Our event is associated with Hack Club, a 501(c)3 non-profit helping high schoolers form coding groups within their school and local communities. At the beginning of the event, we will release a prompt for the hackathon, and teens will form teams to create projects based on that prompt. At the end of the event, teams will demo their projects in mini-table booths, and teens will be given a bag of candies which they can use as votes for their favorite projects."/>
+
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://metatags.io/"/>
+<meta property="og:title" content="Carolina Hacks"/>
+<meta property="og:description" content="Carolina Hacks is a social coding marathon designed for high school coders to come together, build projects, and discover the joy of coding. Our event is associated with Hack Club, a 501(c)3 non-profit helping high schoolers form coding groups within their school and local communities. At the beginning of the event, we will release a prompt for the hackathon, and teens will form teams to create projects based on that prompt. At the end of the event, teams will demo their projects in mini-table booths, and teens will be given a bag of candies which they can use as votes for their favorite projects."/>
+<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:url" content="https://metatags.io/"/>
+<meta property="twitter:title" content="Carolina Hacks"/>
+<meta property="twitter:description" content="Carolina Hacks is a social coding marathon designed for high school coders to come together, build projects, and discover the joy of coding. Our event is associated with Hack Club, a 501(c)3 non-profit helping high schoolers form coding groups within their school and local communities. At the beginning of the event, we will release a prompt for the hackathon, and teens will form teams to create projects based on that prompt. At the end of the event, teams will demo their projects in mini-table booths, and teens will be given a bag of candies which they can use as votes for their favorite projects."/>
+<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+    </Head>
+
+    <main onTouchMove={unmute}>
     <video ref={videoRef} muted autoPlay loop className={styles.video} playsInline preload="auto">
       <source src="./8mb.mp4" type="video/mp4"/>       
     </video>
-    <main onTouchMove={unmute}>
-      
       <a href="https://forms.gle/sUP8ixVM7GJu5K9E8" className={styles.buttonTicket}>
         Reserve a Ticket
       </a>
