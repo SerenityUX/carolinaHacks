@@ -57,9 +57,11 @@ function HomePage() {
     </Head>
 
     <main onTouchMove={unmute}>
-    <video ref={videoRef} muted autoPlay loop className={styles.video} playsInline preload="auto">
-      <source src="./8mb.mp4" type="video/mp4"/>       
-    </video>
+    <div style={{ "width": "100%",   objectFit: "cover",   
+  objectPosition: "left",
+  width: "100%",
+  height: "100%",
+  position: "fixed", zIndex: -1, "height": 0, paddingBottom: "56.250%"}}><iframe src="https://streamable.com/e/d132bd?autoplay=1&nocontrols=1" frameborder="0" width="100%" height="100%" allowfullscreen style={{width: "100%", height: "100%", position: "absolute", left:0, top:0, overflow: "hidden"}}></iframe></div>
       <a href="https://forms.gle/sUP8ixVM7GJu5K9E8" className={styles.buttonTicket}>
         Reserve a Ticket
       </a>
