@@ -88,4 +88,6 @@
   height: 100%;
   position: fixed;
   z-index: -1; 
+  background-repeat:no-repeat;
+  background-size: cover;
 }

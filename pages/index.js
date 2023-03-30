@@ -58,7 +58,7 @@ function HomePage() {
 
     <main onTouchMove={unmute}>
     <video ref={videoRef} muted autoPlay loop className={styles.video} playsInline preload="auto">
-      <source src="https://cdn-cf-east.streamable.com/video/mp4/d132bd.mp4?Expires=1680455520&Signature=T~7Xnfv3ln~ZAxTGY2aBLDVU3urG6idkEkJxuG4t04WNpCbicKVO5ytnykWOkkBx804REMx56uGdNI1AT7z~gdnqZX5zNBfXyzRNjCTefxAJTDHuMHQ5xMQeGEe9-EkpeU5gOQu75T~brL9tltbslYnSDR3rxS1nrJwb5brcWhKRQmX58QIkbdfEncpN4ytQNH8oSOGBU~mxfAegqVoMh~uoohHe8GVzEMJkyg722ilkUYPhbj7zJ746GYUHQx2kTq9J4CL3lKvw5G9QPzcD1RJ330-ybqeriDMVDmRjngclFJniTJE3u1WOVW0un4OuFlfA0JcbEWgMqrGqQAf1EQ__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ" type="video/mp4"/>       
+      <source src="https://cdn-cf-east.streamable.com/video/mp4/d132bd.mp4?Expires=1680455520&Signature=T~7Xnfv3ln~ZAxTGY2aBLDVU3urG6idkEkJxuG4t04WNpCbicKVO5ytnykWOkkBx804REMx56uGdNI1AT7z~gdnqZX5zNBfXyzRNjCTefxAJTDHuMHQ5xMQeGEe9-EkpeU5gOQu75T~brL9tltbslYnSDR3rxS1nrJwb5brcWhKRQmX58QIkbdfEncpN4ytQNH8oSOGBU~mxfAegqVoMh~uoohHe8GVzEMJkyg722ilkUYPhbj7zJ746GYUHQx2kTq9J4CL3lKvw5G9QPzcD1RJ330-ybqeriDMVDmRjngclFJniTJE3u1WOVW0un4OuFlfA0JcbEWgMqrGqQAf1EQ__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ" type="video/mp4"/>        
     </video>
       <a href="https://forms.gle/sUP8ixVM7GJu5K9E8" className={styles.buttonTicket}>
         Reserve a Ticket
