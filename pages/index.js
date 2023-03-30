@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
+import { useRef, useEffect } from "react"
 function HomePage() {
   const questions = [
     {
@@ -25,13 +25,29 @@ function HomePage() {
       answer: "If you have any further questions that have not been addressed, please do not hesitate to contact us via email. We will be happy to assist you."
     },   
   ]
+
+  const videoRef = useRef(null);
+
+
+  const unmute = () => {
+    const video = videoRef.current;
+
+    video.muted = false;
+  }
+
+
   return (
-    <main>
+    <>
+    <video ref={videoRef} muted autoPlay loop className={styles.video} playsInline preload="auto">
+      <source src="./8mb.mp4" type="video/mp4"/>       
+    </video>
+    <main onTouchMove={unmute}>
+      
       <a href="https://forms.gle/sUP8ixVM7GJu5K9E8" className={styles.buttonTicket}>
         Reserve a Ticket
       </a>
       <div className={styles.hero}></div>
-      <div className={styles.eventInfo}>
+      <div className={styles.eventInfo}> 
       <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
 
       
@@ -64,7 +80,7 @@ function HomePage() {
           <p className={styles.descriptionText}>🏢 Venue: <a style={{textDecoration: "underline", color: "#046FEC"}} href="https://goo.gl/maps/LPKyAK1D8yZRsBoPA">Spartanburg County Public Library</a></p>
           <p className={styles.descriptionText}>📆 Date: April 22nd 2023 from 9:30 AM to 5:30 PM</p>
           <p className={styles.descriptionText}>💬 Hack Club Slack Channel: <a style={{color: "#046FEC", textDecoration: "underline"}} href="https://hackclub.com/slack/?continent=North%20America">#carolina-hacks</a></p>
-        </div>
+        </div> 
 
         <div className={styles.contentGroup}>
           <h2>Learn & Bond by Building</h2>
@@ -118,6 +134,7 @@ function HomePage() {
         </div>
       </div>
     </main>
+    </>
   );
 }
 
