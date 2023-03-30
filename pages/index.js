@@ -102,14 +102,41 @@ function HomePage() {
         <div className={styles.contentGroup}>
           <h2>Learn & Bond by Building</h2>
           <p>Carolina Hacks is all about getting your hands dirty with code. Come join a community of like-minded high schoolers for a Saturday of learning by doing. Whether you're a seasoned hacker or just starting out, you'll walk away with new skills and lifelong friends.</p>
+          <Image
+          src="/building.jpg"
+          width={256}
+          height={142}
+          style={{
+            objectFit: "cover",
+            borderRadius: 16,
+          }}
+          ></Image>
         </div>
         <div className={styles.contentGroup}>
           <h2>Find Your Creative Coding Community</h2>
           <p>You'll get the chance to collaborate with high schoolers from all over South Carolina (& the world) who share your passion for creative coding. From brainstorming ideas to working through tough coding challenges, you'll build lasting connections with a community that supports and inspires you.</p>
+          <Image
+          src="/community.jpg"
+          width={256}
+          height={256}
+          style={{
+            objectFit: "cover",
+            borderRadius: 16,
+          }}
+          ></Image>
         </div>
         <div className={styles.contentGroup}>
           <h2>Build a Project You'll be Proud Of</h2>
           <p>Over the course of the day, you'll work with a team to build a project that you're passionate about. Whether it's a game, an app, or something totally out-of-the-box, you'll walk away feeling proud of what you've accomplished.</p>
+          <Image
+          src="/project.jpg"
+          width={256}
+          height={256}
+          style={{
+            objectFit: "cover",
+            borderRadius: 16,
+          }}
+          ></Image>
         </div>
         <div className={styles.contentGroup}>
           <h2>Additional Perks</h2>
