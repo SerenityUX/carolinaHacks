@@ -10,7 +10,7 @@ function HomePage() {
     },
     {
       question: "What measures are in place to ensure safety during the event?",
-      answer: "We take the safety of our participants very seriously. We will have active security measures in place to ensure the safety of all attendees. Additionally, we will have accommodations and a hotline available for participants to contact at any time during the event for assistance. If you have any further concerns or questions, please do not hesitate to contact us via email."
+      answer: "We take the safety of our participants very seriously. We will have active security measures in place to ensure the safety of all attendees. If you have any further concerns or questions, please do not hesitate to contact us via email."
     },
     {
       question: "Is prior coding experience required to participate in the hackathon?",
