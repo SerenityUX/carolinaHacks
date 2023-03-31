@@ -55,11 +55,12 @@ function HomePage() {
 <meta property="twitter:description" content="Carolina Hacks is a social coding marathon designed for high school coders to come together, build projects, and discover the joy of coding. Our event is fiscally sponsored by Hack Club, a 501(c)3 non-profit helping high schoolers form coding groups within their school and local communities. At the beginning of the event, we will release a prompt for the hackathon, and teens will form teams to create projects based on that prompt. At the end of the event, teams will demo their projects in mini-table booths, and teens will be given a bag of candies which they can use as votes for their favorite projects."/>
 <meta property="twitter:image" content="https://iili.io/HO9A1P2.md.png"/>
     </Head>
-
-    <main onTouchMove={unmute}>
-    <video ref={videoRef} muted autoPlay loop className={styles.video} playsInline preload="auto">
+    <video ref={videoRef} style={{width: "100vw"}} muted autoPlay loop className={styles.video} preload="auto">
       <source src="https://cdn-cf-east.streamable.com/video/mp4/d132bd.mp4?Expires=1680455520&Signature=T~7Xnfv3ln~ZAxTGY2aBLDVU3urG6idkEkJxuG4t04WNpCbicKVO5ytnykWOkkBx804REMx56uGdNI1AT7z~gdnqZX5zNBfXyzRNjCTefxAJTDHuMHQ5xMQeGEe9-EkpeU5gOQu75T~brL9tltbslYnSDR3rxS1nrJwb5brcWhKRQmX58QIkbdfEncpN4ytQNH8oSOGBU~mxfAegqVoMh~uoohHe8GVzEMJkyg722ilkUYPhbj7zJ746GYUHQx2kTq9J4CL3lKvw5G9QPzcD1RJ330-ybqeriDMVDmRjngclFJniTJE3u1WOVW0un4OuFlfA0JcbEWgMqrGqQAf1EQ__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ" type="video/mp4"/>        
     </video>
+
+    <main onTouchMove={unmute}>
+
       <a href="https://forms.gle/sUP8ixVM7GJu5K9E8" className={styles.buttonTicket}>
         Reserve a Ticket
       </a>

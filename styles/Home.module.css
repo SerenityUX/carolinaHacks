@@ -83,8 +83,7 @@
 .video {   
   background-image: url("https://iili.io/HO901YQ.jpg");
   object-fit: cover;   
-  object-position: left;
-  width: "100%";
+  width: "100vw";
   height: 100vh;
   position: fixed;
   z-index: -1; 
