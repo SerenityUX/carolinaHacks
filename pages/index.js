@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { useRef, useEffect } from "react"
+import { useRef, useState, useEffect } from "react"
+import { useMediaQuery } from '@react-hook/media-query';
+
 function HomePage() {
   const questions = [
     {
@@ -35,6 +37,12 @@ function HomePage() {
     video.muted = false;
   }
 
+  const [isClient, setIsClient] = useState(false); // initialize isClient state to false
+  const isMobile = useMediaQuery('(max-width: 768px)'); // check if the viewport width is less than or equal to 768px
+
+  useEffect(() => {
+    setIsClient(true); // set isClient state to true on client mount
+  }, []);
 
   return (
     <>
@@ -55,9 +63,15 @@ function HomePage() {
 <meta property="twitter:description" content="Carolina Hacks is a social coding marathon designed for high school coders to come together, build projects, and discover the joy of coding. Our event is fiscally sponsored by Hack Club, a 501(c)3 non-profit helping high schoolers form coding groups within their school and local communities. At the beginning of the event, we will release a prompt for the hackathon, and teens will form teams to create projects based on that prompt. At the end of the event, teams will demo their projects in mini-table booths, and teens will be given a bag of candies which they can use as votes for their favorite projects."/>
 <meta property="twitter:image" content="https://iili.io/HO9A1P2.md.png"/>
     </Head>
-    <video ref={videoRef} style={{width: "100vw"}} muted autoPlay loop className={styles.video} preload="auto">
-      <source src="https://telegrade.b-cdn.net/8mb.mp4" type="video/mp4"/>        
-    </video>
+  <div className={styles.videoContainer}>
+    {isClient && !isMobile ? ( // render video element only on the client and if not on a mobile device
+      <video ref={videoRef} style={{width: "100vw"}} muted autoPlay loop className={styles.video}>
+        <source src="https://telegrade.b-cdn.net/8mb.mp4" type="video/mp4" className={styles.videoSource}/>
+      </video>
+    ) : (
+      <img src={"https://iili.io/HO901YQ.jpg"} className={styles.video} />
+    )}
+  </div>
 
     <main onTouchMove={unmute}>
 
