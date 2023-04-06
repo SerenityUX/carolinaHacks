@@ -100,7 +100,7 @@ function HomePage() {
         </p>
 
         <p className={styles.descriptionText}>
-          At our hackathons, high schoolers will come together for a Saturday of
+          At our hackathon, high schoolers will come together for a Saturday of
           forming friendships, developing unique projects, and shipping their
           creations to the world.
         </p>
