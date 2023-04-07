@@ -50,7 +50,7 @@ function HomePage() {
 <title>Carolina Hacks</title>
 <meta name="title" content="Carolina Hacks"/>
 <meta name="description" content="Carolina Hacks is a hackathon for high school coders, organized by the Hack Club community. Join us for a weekend of coding, learning, and building amazing projects!"/>
-<meta name="keywords" content="Carolina Hacks, hackathon, high school coders, Hack Club"/>
+<meta name="keywords" content="Carolina Hacks, Spartanburg, Coding, Hack, Game Jam, Greenville, hackathon, high school coders, Hack Club, Programming"/>
 <meta name="author" content="Carolina Hacks"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta property="og:site_name" content="Carolina Hacks"/>
@@ -72,7 +72,8 @@ function HomePage() {
         <source src="https://telegrade.b-cdn.net/8mb.mp4" type="video/mp4" className={styles.videoSource}/>
       </video>
     ) : (
-      <img src={"https://iili.io/HO901YQ.jpg"} className={styles.video} />
+      <img alt="Carolina Hacks Cover Background"
+      src={"https://iili.io/HO901YQ.jpg"} className={styles.video} />
     )}
   </div>
 
