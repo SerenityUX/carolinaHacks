@@ -49,8 +49,11 @@ function HomePage() {
     <Head>
 <title>Carolina Hacks</title>
 <meta name="title" content="Carolina Hacks"/>
-<meta name="description" content="Carolina Hacks is a social coding marathon designed for high school coders to come together, build projects, and discover the joy of coding. Our event is fiscally sponsored by Hack Club, a 501(c)3 non-profit helping high schoolers form coding groups within their school and local communities. At the beginning of the event, we will release a prompt for the hackathon, and teens will form teams to create projects based on that prompt. At the end of the event, teams will demo their projects in mini-table booths, and teens will be given a bag of candies which they can use as votes for their favorite projects."/>
-
+<meta name="description" content="Carolina Hacks is a hackathon for high school coders, organized by the Hack Club community. Join us for a weekend of coding, learning, and building amazing projects!"/>
+<meta name="keywords" content="Carolina Hacks, hackathon, high school coders, Hack Club"/>
+<meta name="author" content="Carolina Hacks"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta property="og:site_name" content="Carolina Hacks"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://carolinahacks.com/"/>
 <meta property="og:title" content="Carolina Hacks"/>
@@ -86,6 +89,7 @@ function HomePage() {
       <Image
           src="/logo.png"
           width={128}
+          alt="Carolina Hacks Logo"
           height={128}
           style={{
             backgroundColor: "#013161",
@@ -121,6 +125,7 @@ function HomePage() {
           src="/building.jpg"
           width={256}
           height={142}
+          alt="Image of Spartanburg County Library"
           style={{
             objectFit: "cover",
             borderRadius: 16,
@@ -134,6 +139,7 @@ function HomePage() {
           src="/community.jpg"
           width={256}
           height={256}
+          alt="Picture of two Carolina Hacks high schoolers walking and talking"
           style={{
             objectFit: "cover",
             borderRadius: 16,
@@ -146,6 +152,8 @@ function HomePage() {
           <Image
           src="/project.jpg"
           width={256}
+          alt="Picture of Dieter Schoening from Carolina Hacks writing on a board"
+
           height={256}
           style={{
             objectFit: "cover",
