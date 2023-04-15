@@ -120,6 +120,15 @@ function HomePage() {
         </div> 
 
         <div className={styles.contentGroup}>
+          <h2>What is Carolina Hacks?</h2>
+          <p>Carolina Hacks is a social coding marathon designed for high school coders to come together, build projects, and discover the joy of coding. 
+            At the beginning of the event, we will release a prompt for the hackathon, and teens will form teams to create projects based on that prompt. At the end of the event, teams will demo their projects in mini-table booths, and teens will be given a bag of candies which they can use as votes for their favorite projects. <br/>
+            <br/>
+            <strong>Teens get to enjoy all aspects of Carolina Hacks (from food to prizes) for free! Just come and build an awesome project, and we'll handle the rest.</strong>
+            </p>
+        </div>
+
+        <div className={styles.contentGroup}>
           <h2>Learn & Bond by Building</h2>
           <p>Carolina Hacks is all about getting your hands dirty with code. Come join a community of like-minded high schoolers for a Saturday of learning by doing. Whether you're a seasoned hacker or just starting out, you'll walk away with new skills and lifelong friends.</p>
           <Image

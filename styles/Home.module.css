@@ -14,7 +14,7 @@
   position: absolute;
   padding: 16px;
   background-color: #fff;
-  margin-top: calc(100vh);
+  margin-top: calc(100vh - 332px);
   width: calc(100vw - 32px);
 }
 .descriptionText {
@@ -83,7 +83,6 @@
 .video {   
   background-image: url("https://iili.io/HO901YQ.jpg");
   object-fit: cover;   
-  width: "100vw";
   height: 100vh;
   position: fixed;
   z-index: -1; 
