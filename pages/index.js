@@ -79,8 +79,8 @@ function HomePage() {
 
     <main onTouchMove={unmute}>
 
-      <a href="https://forms.gle/sUP8ixVM7GJu5K9E8" className={styles.buttonTicket}>
-        Reserve a Ticket
+      <a href="https://drive.google.com/file/d/1gOpYcsQk7mf2ETHbtHarUdKUDJAMFL-w/view?usp=sharing" className={styles.buttonTicket}>
+        Watch Documentary
       </a>
       <div className={styles.hero}></div>
       <div className={styles.eventInfo}> 
