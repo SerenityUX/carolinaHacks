@@ -79,7 +79,7 @@ function HomePage() {
 
     <main onTouchMove={unmute}>
 
-      <a target=”_blank” href="https://drive.google.com/file/d/1gOpYcsQk7mf2ETHbtHarUdKUDJAMFL-w/view?usp=sharing" className={styles.buttonTicket}>
+      <a target="_blank" href="https://drive.google.com/file/d/1gOpYcsQk7mf2ETHbtHarUdKUDJAMFL-w/view?usp=sharing" className={styles.buttonTicket}>
         Watch Documentary
       </a>
       <div className={styles.hero}></div>
